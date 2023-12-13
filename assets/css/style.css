@@ -1,0 +1,246 @@
+/* styles.css */
+:root {
+    --primary-color: #007bff;
+    --background-color: #aaf0e4; /* Alterado para verde água claro */
+    --header-bg-color: #62a887;
+    --text-color: #495057;
+    --border-color: #ced4da;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    background-image: url(./assets/images/colagem-de-operacoes-de-receita.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+  }
+  
+  .container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    background-color: var(--header-bg-color);
+    margin-bottom: 20px;
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #ffffff;
+  }
+  
+  .nav-link:hover {
+    color: #e0e0e0;
+  }
+  
+  .login-container {
+    max-width: 400px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form {
+    margin-top: 20px;
+  }
+  
+  .form-label {
+    color: var(--text-color);
+  }
+  
+  .form-control {
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .btn-login {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-login:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-icon {
+    font-size: 2rem;
+    color: #28a745;
+    margin-bottom: 20px;
+  }
+  
+  /* Seção de Destaques */
+  .features {
+    background-color: #ffffff;
+    padding: 60px 0;
+  }
+  
+  .feature-box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-icon {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+  }
+  
+  /* Rodapé */
+  .footer {
+    background-color: var(--header-bg-color);
+    color: #ffffff;
+    padding: 20px 0;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .footer-links li {
+    margin-right: 20px;
+  }
+  
+  .footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  /* styles.css */
+:root {
+    --primary-color: #007bff;
+    --background-color: #aaf0e4; /* Alterado para verde água claro */
+    --header-bg-color: #62a887;
+    --text-color: #495057;
+    --border-color: #ced4da;
+}
+
+body {
+    background-color: var(--background-color);
+    background-image: url('./assets/images/colagem-de-operacoes-de-receita.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: var(--header-bg-color);
+    margin-bottom: 20px;
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #e0e0e0;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+    margin-top: 20px;
+}
+
+.form-label {
+    color: var(--text-color);
+}
+
+.form-control {
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.btn-login {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #0056b3;
+}
+
+.login-icon {
+    font-size: 2rem;
+    color: #28a745;
+    margin-bottom: 20px;
+}
+
+/* Seção de Destaques */
+.features {
+    background-color: #ffffff;
+    padding: 60px 0;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.feature-icon {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+/* Rodapé */
+.footer {
+    background-color: var(--header-bg-color);
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-links li {
+    margin-right: 20px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
